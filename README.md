@@ -1,5 +1,11 @@
-# API document
-##
+># Excute step
+
+**tool:** `docker-compose`
+
+**Description:** run `[docker-compose up -d]` in root directory and make sure port 8080 is not used by other application.
+
+># API document
+
 **URL:** `/books`
 
 **Type:** `POST`
