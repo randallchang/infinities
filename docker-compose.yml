@@ -2,7 +2,7 @@ version: "3.8"
 services:
   web:
     build: .
-    container_name: infinities-homework
-    image: infinities-homework
+    container_name: infinities
+    image: infinities
     ports:
       - "8080:8080"
